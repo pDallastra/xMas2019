@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.row {
+    flex-flow: row;
+}
+
+.col {
+    flex-flow: column;
+}
+
+body {
+    background-image: url("../img/xmas.jpg");
+}
+
+.sidebar {
+    width: 15vw;
+    height: auto;
+
+    .sidebarMenu {
+        width: 95%;
+        height: 98%;
+        background-color: #c70d3a;
+        box-shadow: 5px 5px rgba(1, 131, 131, 0.7);
+        margin: 5px;
+        border-radius: 10px;
+
+        .first-half {
+            width: 90%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: white;
+            margin: 0 auto 10px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 10px auto;
+        }
+
+        a:hover {
+            background-color: #ffffff;
+            color: #3a3535;
+            border-radius: 10px;
+            width: 95%;
+            text-align: center;
+        }
+    }
+}
+
+.mainMenu {
+
+    .dallastras {
+        h1 {
+            font-size: 60px;
+            margin: 0 auto 20px;
+            font-family: 'Fjalla One';
+            letter-spacing: 2px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+        }
+
+        img {
+            width: auto;
+            height: 620px;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+        }
+    }
+
+    .options {
+        width: 90vw;
+        height: 12 0px;
+        background-color: rgba(108, 123, 149, 0.7);
+        margin: 0 auto;
+        border-radius: 10px;
+
+        .triple-buttton {
+            margin: 0 auto;
+
+            button {
+                width: 200px;
+                height: 40px;
+                border-radius: 10px;
+                margin: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        button {
+            width: 180px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 20px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+
+.main-container {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+
+    h1 {
+        font-size: 60px;
+        margin: 0 auto 20px;
+        font-family: 'Fjalla One';
+        letter-spacing: 2px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+    }
+
+    img {
+        width: 50vw;
+        height: auto;
+        margin: 0 auto 20px;
+        border-radius: 10px;
+    }
+
+
+    .img-triple {
+        max-width: 95vw;
+
+        .img-text {
+            max-width: 30vw;
+            width: 420px;
+            height: auto;
+            margin: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+
+            img {
+                height: 400px;
+                width: auto;
+                min-width: 380px;
+                margin: 20px 30px;
+            }
+
+            p {
+                text-align: center;
+                min-height: 72px;
+                font-family: 'Kalam';
+                font-size: 18px;
+                margin-top: -10px;
+                margin: 0 3px;
+            }
+        }
+
+        .img-text-rotate-negative90 {
+            max-width: 30vw;
+            width: 420px;
+            height: auto;
+            margin: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+
+            img {
+                height: 400px;
+                width: auto;
+                min-width: 380px;
+                margin: 20px 30px;
+                transform: rotate(-90deg);
+            }
+        }
+
+        .img-text-rotate-90 {
+            max-width: 30vw;
+            width: 420px;
+            height: auto;
+            margin: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+
+            img {
+                height: 400px;
+                width: auto;
+                min-width: 380px;
+                margin: 20px 30px;
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    h2 {
+        width: auto;
+        margin: 10px auto;
+        font-size: 22px;
+        font-style: italic;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        background-color: #018383;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    a {
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+    }
+
+
+    p {
+        text-align: center;
+        min-height: 72px;
+        font-family: 'Kalam';
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+footer {
+    margin-top: 30px;
+
+    h3 {
+        background-color: transparent;
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-container {
+        h1 {
+            font-size: 45px;
+            width: auto;
+        }
+
+        img {
+            height: 230px;
+            width: auto;
+            
+        }
+        .img-triple {
+            flex-flow: column;
+
+            .img-text {
+                max-width: 320px;
+                margin: 10px 0;
+
+                img {
+                    min-width: 0;   
+                }
+            }
+
+            .img-text-rotate-negative90 {
+                max-width: 320px;
+                margin: 10px 0;
+                height: auto;
+
+                img {
+                    min-width: 0;
+                    width: auto;
+                    height: 260px;
+                    margin: 30px 20px;
+                }
+            }
+
+            .img-text-rotate-90 {
+                max-width: 320px;
+                margin: 10px 0;
+                height: auto;
+
+                img {
+                    min-width: 0;
+                    width: auto;
+                    height: 260px;
+                    margin: 30px 20px;
+                }
+            }
+        }
+    }
+
+    .mainMenu {
+
+        .dallastras {
+            h1 {
+                font-size: 45px;
+                width: auto;
+            }
+    
+            img {
+                height: auto;
+                width: 350px;
+                
+            }
+        }
+    
+        .options {
+            width: 90vw;
+            height: 12 0px;
+            background-color: rgba(108, 123, 149, 0.7);
+            margin: 0 auto;
+            border-radius: 10px;
+    
+            .butttons {
+                margin: 5px auto;
+                flex-flow: column;
+    
+                button {
+                    width: 200px;
+                    height: 40px;
+                    border-radius: 10px;
+                    margin: 10px;
+    
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+            }
+    
+            button {
+                width: 180px;
+                height: 40px;
+                border-radius: 10px;
+                margin: 20px;
+    
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 18px;
+                }
+            }
+        }
+    
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}

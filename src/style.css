@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.row {
+  flex-flow: row;
+}
+
+.col {
+  flex-flow: column;
+}
+
+body {
+  background-image: url("../img/xmas.jpg");
+}
+
+.sidebar {
+  width: 15vw;
+  height: auto;
+}
+.sidebar .sidebarMenu {
+  width: 95%;
+  height: 98%;
+  background-color: #c70d3a;
+  box-shadow: 5px 5px rgba(1, 131, 131, 0.7);
+  margin: 5px;
+  border-radius: 10px;
+}
+.sidebar .sidebarMenu .first-half {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+.sidebar .sidebarMenu h3 {
+  font-size: 24px;
+  color: white;
+  margin: 0 auto 10px;
+}
+.sidebar .sidebarMenu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 10px auto;
+}
+.sidebar .sidebarMenu a:hover {
+  background-color: #ffffff;
+  color: #3a3535;
+  border-radius: 10px;
+  width: 95%;
+  text-align: center;
+}
+
+.mainMenu .dallastras h1 {
+  font-size: 60px;
+  margin: 0 auto 20px;
+  font-family: "Fjalla One";
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.mainMenu .dallastras img {
+  width: auto;
+  height: 620px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+.mainMenu .options {
+  width: 90vw;
+  height: 12 0px;
+  background-color: rgba(108, 123, 149, 0.7);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.mainMenu .options .triple-buttton {
+  margin: 0 auto;
+}
+.mainMenu .options .triple-buttton button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.mainMenu .options .triple-buttton button a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.mainMenu .options button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.mainMenu .options button a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.main-container {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+.main-container h1 {
+  font-size: 60px;
+  margin: 0 auto 20px;
+  font-family: "Fjalla One";
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.main-container img {
+  width: 50vw;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+.main-container .img-triple {
+  max-width: 95vw;
+}
+.main-container .img-triple .img-text {
+  max-width: 30vw;
+  width: 420px;
+  height: auto;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.main-container .img-triple .img-text img {
+  height: 400px;
+  width: auto;
+  min-width: 380px;
+  margin: 20px 30px;
+}
+.main-container .img-triple .img-text p {
+  text-align: center;
+  min-height: 72px;
+  font-family: "Kalam";
+  font-size: 18px;
+  margin-top: -10px;
+  margin: 0 3px;
+}
+.main-container .img-triple .img-text-rotate-negative90 {
+  max-width: 30vw;
+  width: 420px;
+  height: auto;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.main-container .img-triple .img-text-rotate-negative90 img {
+  height: 400px;
+  width: auto;
+  min-width: 380px;
+  margin: 20px 30px;
+  transform: rotate(-90deg);
+}
+.main-container .img-triple .img-text-rotate-90 {
+  max-width: 30vw;
+  width: 420px;
+  height: auto;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.main-container .img-triple .img-text-rotate-90 img {
+  height: 400px;
+  width: auto;
+  min-width: 380px;
+  margin: 20px 30px;
+  transform: rotate(90deg);
+}
+.main-container h2 {
+  width: auto;
+  margin: 10px auto;
+  font-size: 22px;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.main-container button {
+  width: 100px;
+  height: 30px;
+  background-color: #018383;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.main-container a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.main-container p {
+  text-align: center;
+  min-height: 72px;
+  font-family: "Kalam";
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+  margin-top: 30px;
+}
+footer h3 {
+  background-color: transparent;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-container h1 {
+    font-size: 45px;
+    width: auto;
+  }
+  .main-container img {
+    height: 230px;
+    width: auto;
+  }
+  .main-container .img-triple {
+    flex-flow: column;
+  }
+  .main-container .img-triple .img-text {
+    max-width: 320px;
+    margin: 10px 0;
+  }
+  .main-container .img-triple .img-text img {
+    min-width: 0;
+  }
+  .main-container .img-triple .img-text-rotate-negative90 {
+    max-width: 320px;
+    margin: 10px 0;
+    height: auto;
+  }
+  .main-container .img-triple .img-text-rotate-negative90 img {
+    min-width: 0;
+    width: auto;
+    height: 260px;
+    margin: 30px 20px;
+  }
+  .main-container .img-triple .img-text-rotate-90 {
+    max-width: 320px;
+    margin: 10px 0;
+    height: auto;
+  }
+  .main-container .img-triple .img-text-rotate-90 img {
+    min-width: 0;
+    width: auto;
+    height: 260px;
+    margin: 30px 20px;
+  }
+
+  .mainMenu .dallastras h1 {
+    font-size: 45px;
+    width: auto;
+  }
+  .mainMenu .dallastras img {
+    height: auto;
+    width: 350px;
+  }
+  .mainMenu .options {
+    width: 90vw;
+    height: 12 0px;
+    background-color: rgba(108, 123, 149, 0.7);
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .mainMenu .options .butttons {
+    margin: 5px auto;
+    flex-flow: column;
+  }
+  .mainMenu .options .butttons button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .mainMenu .options .butttons button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  .mainMenu .options button {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .mainMenu .options button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+}
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=style.css.map */
